@@ -1,0 +1,4 @@
+Class/Section/4C
+Registration_Number|Student_Name|Gender
+091|faaiz khan|m
+164|izza eiman|f

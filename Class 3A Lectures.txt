@@ -1,0 +1,4 @@
+Class/Section/3A Lectu
+Course_Title|Course_Code|Lecture_Type|Room|Date
+lab final|csc101|oop concepts|lab|7|01-01-25
+AMS|33|project|class|5|02-01-25

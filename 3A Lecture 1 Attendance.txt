@@ -1,0 +1,4 @@
+Lecture: lab final
+Class/Section/3A
+Registration_Number|Student_Name|Gender
+123|obaid|f|Status: P

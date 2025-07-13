@@ -1,0 +1,4 @@
+Class/Section/8C||
+Registration_Number|Student_Name|Gender
+091|faaiz khan|m
+124|khan|m

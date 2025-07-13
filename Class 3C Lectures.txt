@@ -1,0 +1,15 @@
+Class/Section/3C Lec
+Course_Title|Course_Code|Lecture_Type|Room|Date
+Class/Section/3C Lec
+Course_Title|Course_Code|Lecture_Type|Room|Date
+Class/Section/3C Lec
+Course_Title|Course_Code|Lecture_Type|Room|Date
+OOP|OOP123|polymorphism|lab|7|20-10-24
+Class/Section/3C Lectu
+Course_Title|Course_Code|Lecture_Type|Room|Date
+viva|345|oop|lab|407|4
+ads|sds|sds|sds|sdd|sdsd
+Class/Section/3C Lectu
+Course_Title|Course_Code|Lecture_Type|Room|Date
+pf|1232|23123|23123|232|123
+2321|23132|21321|2313|123|12323

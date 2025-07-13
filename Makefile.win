@@ -1,0 +1,46 @@
+# Project: AMS
+# Makefile created by Embarcadero Dev-C++ 6.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o Student.o Lecture.o menu.o batch.o attendence.o loading.o
+LINKOBJ  = main.o Student.o Lecture.o menu.o batch.o attendence.o loading.o
+LIBS     = -L"C:/Users/Himayal/Downloads/faaiz/code/dev.cpp/Dev-Cpp/TDM-GCC-64/lib" -L"C:/Users/Himayal/Downloads/faaiz/code/dev.cpp/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/lib"
+INCS     = -I"C:/Users/Himayal/Downloads/faaiz/code/dev.cpp/Dev-Cpp/TDM-GCC-64/include" -I"C:/Users/Himayal/Downloads/faaiz/code/dev.cpp/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Users/Himayal/Downloads/faaiz/code/dev.cpp/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+CXXINCS  = -I"C:/Users/Himayal/Downloads/faaiz/code/dev.cpp/Dev-Cpp/TDM-GCC-64/include" -I"C:/Users/Himayal/Downloads/faaiz/code/dev.cpp/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Users/Himayal/Downloads/faaiz/code/dev.cpp/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"C:/Users/Himayal/Downloads/faaiz/code/dev.cpp/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
+BIN      = AMS.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+DEL      = C:\Users\Himayal\Downloads\faaiz\code\dev.cpp\Dev-Cpp\DevCpp.exe INTERNAL_DEL
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${DEL} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Student.o: Student.cpp
+	$(CPP) -c Student.cpp -o Student.o $(CXXFLAGS)
+
+Lecture.o: Lecture.cpp
+	$(CPP) -c Lecture.cpp -o Lecture.o $(CXXFLAGS)
+
+menu.o: menu.cpp
+	$(CPP) -c menu.cpp -o menu.o $(CXXFLAGS)
+
+batch.o: batch.cpp
+	$(CPP) -c batch.cpp -o batch.o $(CXXFLAGS)
+
+attendence.o: attendence.cpp
+	$(CPP) -c attendence.cpp -o attendence.o $(CXXFLAGS)
+
+loading.o: loading.cpp
+	$(CPP) -c loading.cpp -o loading.o $(CXXFLAGS)

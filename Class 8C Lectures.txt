@@ -1,0 +1,3 @@
+Class/Section/8C Lectu
+Course_Title|Course_Code|Lecture_Type|Room|Date
+oop|csc101|models|class|2|2/1/24
