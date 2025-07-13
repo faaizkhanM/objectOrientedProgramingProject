@@ -49,4 +49,11 @@ The Attendance Management System is a console-based application developed in **C
 ---
 
 ## 📂 File Structure
-
+AttendanceManagement/
+├── main.cpp
+├── Student.h / Student.cpp
+├── Admin.h / Admin.cpp
+├── AttendanceRecord.h / AttendanceRecord.cpp
+├── utils.h / utils.cpp
+├── attendance.txt
+└── students.txt
